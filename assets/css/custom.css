@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto Mono';
+    width: 100%;
+    background-color: #F5F5F5;
+    min-height: 100%;
+}
+
+/*NAVBAR*/
+.navbar  {
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    background-color: #373f51;
+}
+
+
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a:active {
+  color: white;
+}
+
+.social-media-bar {
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+
+.older-posts, .newer-posts {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 3px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h1, h2, h3, h4, h5, h6, a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-brand:hover {
+  color: #008dd5;
+}
+a {
+   outline: 0;
+}
+
+a:hover, a:active, a:focus {
+  outline: 0;
+}
+
+.navbar-nav ul li a:active {
+    border: 0px;
+}
+
+.maincontent {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 12pt;
+  background-color: white;
+}
+
+.post-meta {
+  font-size: 10pt;
+}
+
+.post-meta > a{
+  color: grey;
+}
+.jumbotron {
+  padding: 50px;
+  background-color: #008dd5;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.share, .author {
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  text-align: center;
+}
