@@ -3,8 +3,10 @@
 
 {{!-- The big featured header --}}
 <div class="jumbotron" {{#if @blog.logo}} style="background: #DCDCDC url({{@blog.cover}})  "{{/if}}>
+  <div class="container">
     <h1>{{@blog.title}}</h1>
     <p>{{@blog.description}}</p>
+  </div>
 </div>
 <div class="social-media-bar">
   <center>
