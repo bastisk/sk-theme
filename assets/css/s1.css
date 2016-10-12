@@ -1,3 +1,14 @@
 .maincontent {
   font-size: 17px;
 }
+
+.nav .navbar-nav {
+  heigth: 60px;
+}
+
+
+.navbar-header .navbar-brand img{
+  height: 25px;
+  padding: 0px;
+  margin-top: 0px;
+}
