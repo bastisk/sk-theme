@@ -16,3 +16,7 @@
 .navbar{
   margin-bottom: 0px;
 }
+
+a:link {
+  color: #4d4d4d;
+}
